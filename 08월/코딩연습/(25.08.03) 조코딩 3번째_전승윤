@@ -1,0 +1,130 @@
+#조코딩 2-4
+t1 = ()
+t2 = (1,)
+t3 = (1, 2, 3)
+t4 = 1, 2, 3
+t5 = ('a', 'b', ('ab', 'cd'))
+
+t1 = (1, 2, 'a', 'b')
+del t1[0]
+
+t1 = (1, 2, 'a', 'b')
+t1[0] = 'c'
+
+t1 = (1, 2, 'a', 'b')
+t1[1:]
+
+#  t1 = (1, 2, 'a', 'b')
+#  t2 = (3, 4)
+# t3 = t1 + t2
+#  t3
+# (1, 2, 'a', 'b', 3, 4)
+
+# t2 = (3, 4)
+# t3 = t2 * 3
+# t3
+# (3, 4, 3, 4, 3, 4)
+
+# t1 = (1, 2, 'a', 'b')
+# len(t1)
+# 4
+
+
+
+
+
+#조코딩 2-5
+dic = {'name': 'pey', 'phone': '010-9999-1234', 'birth': '1118'}
+
+a = {1: 'hi'}
+
+a = {'a': [1, 2, 3]}
+
+a = {1: 'a'}
+a[2] = 'b'
+
+#  a= {1: 'a', 2: 'b'}
+
+#  a[3] = [1, 2, 3]
+#  a
+# {1: 'a', 2: 'b', 'name': 'pey', 3: [1, 2, 3]}
+# del a[1]
+# a
+# {2: 'b', 'name': 'pey', 3: [1, 2, 3]
+
+# grade = {'pey': 10, 'julliet': 99}
+# grade['pey'] ->10
+# grade['julliet'] ->99
+
+
+dic = {'name':'pey', 'phone':'010-9999-1234', 'birth': '1118'}
+print(dic['name'])
+
+print(dic['phone'])
+
+print(dic['birth'])
+
+a = {'name': 'pey', 'phone': '010-9999-1234', 'birth': '1118'}
+print(a.keys())
+print(a.values())
+print(a.get('name'))
+print('name' in a)
+
+
+
+
+
+
+
+
+#조코딩 2-6
+s1 = set([1, 2, 3])
+print(s1)
+
+s2 = set("Hello")
+print(s2)
+
+s1 = set([1, 2, 3, 4, 5, 6])
+s2 = set([4, 5, 6, 7, 8, 9])
+
+print(s1 & s2)
+print(s1 | s2)
+print(s1 - s2)
+
+s1 = set([1, 2, 3])
+s1.add(4)
+print(s1)
+
+s1 = set([1, 2, 3])
+s1.update([4, 5, 6])
+print(s1)
+
+s1 = set([1, 2, 3])
+s1.remove(2)
+print(s1)
+
+
+
+
+#조코딩 2-7
+a = True
+b = False
+
+c = 1 == 1
+print(c)
+
+
+a = [1, 2, 3, 4]
+while a:
+    print(a.pop())
+
+
+
+if [1, 2, 3]:
+    print("참")
+else:
+  print("거짓")
+
+
+
+
