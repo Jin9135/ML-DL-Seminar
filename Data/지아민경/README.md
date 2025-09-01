@@ -64,4 +64,5 @@
 파일 별로 코드 구성이 조금씩 다르고, 개인이 테스트 해본 코드도 많으므로 필요한 코드만 재구성하여 사용하시면 좋을 거 같습니다. 
 
 **M추정기 SVM 코드**: https://drive.google.com/drive/folders/1WqAg7BMoC2KAwOTbSpLMcQACiDU2RjeG?usp=sharing
+
 **Fuzzy membership SVM 코드**: https://drive.google.com/drive/folders/163t73PZTa-Nj3SgrztEqhI6ePJghW-RI?usp=sharing
