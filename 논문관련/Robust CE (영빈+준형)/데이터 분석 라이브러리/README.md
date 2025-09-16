@@ -3,6 +3,8 @@
 Result에 loss function 명시
 
 ## 예시 ##
+
+```python
 losses = {
     "CE": make_loss("ce"),
     "GCE(q=0.7)": make_loss("gce", q=0.7),
@@ -15,5 +17,9 @@ for name, loss_fn in losses.items():
     model, hist, test_score = run_experiment(
         df_wine, "uci_wine",
         loss_name=name,
-        loss_fn=loss_fn, epochs=50, batch_size=64, lr=1e-3, seed=43
+        loss_fn=loss_fn,
+        epochs=50,
+        batch_size=64,
+        lr=1e-3,
+        seed=43
     )
