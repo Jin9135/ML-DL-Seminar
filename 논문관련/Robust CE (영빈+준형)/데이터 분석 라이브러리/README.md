@@ -1,8 +1,8 @@
-## Data Research Code Version 1.1 ##
+# Data Research Code Version 1.1 #
 로그에 loss function 추가
 Result에 loss function 명시
 
-# 예시 #
+## 예시 ##
 losses = {
     "CE": make_loss("ce"),
     "GCE(q=0.7)": make_loss("gce", q=0.7),
