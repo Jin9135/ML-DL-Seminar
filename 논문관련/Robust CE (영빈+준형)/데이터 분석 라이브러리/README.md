@@ -1,6 +1,11 @@
 # Data Research Code Version 1.1 #
+run_experiment 함수 인자 loss_name 추가
+
 로그에 loss function 추가
+
 Result에 loss function 명시
+
+colab 사용 시 loss_name=name
 
 ## 예시 ##
 
